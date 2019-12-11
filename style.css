@@ -1,0 +1,192 @@
+
+
+body {
+	background-image: url(images/herringbone.png);
+	margin: 0;
+	padding: 0;
+	font-family: arial; .
+	line-height: 195%;
+	text-align: justify;
+	height: auto;
+	
+	
+}
+
+
+/*get to know me text*/
+h1 {
+	color: #4aaaa5;
+	text-align: left;
+	font-size: 28px;
+	letter-spacing: 1px;
+
+	
+}
+
+
+/*gettoknowmeandborderbottom*/
+.containergettoknow {
+	border-bottom: 1px solid #777777;
+	padding-top: -50px;
+
+
+}
+
+
+
+
+
+
+nav {
+	float: right;
+	padding-right: 300px;
+	padding-top: 25px;
+
+	
+}
+
+
+nav ul {
+	margin: 0;
+	padding: 0;
+	list-style: none;
+
+}
+
+nav li {
+	float: left;
+	margin-left: 70px;
+	padding-top: 5px;
+	letter-spacing: 1.5px;
+
+
+
+}
+
+nav a {
+	color: #777777;
+	text-decoration: none;
+	text-transform: uppercase;
+}
+
+nav a:hover {
+	color: #000;
+}
+
+
+
+p, p2, p3 {
+	font-size: 24px;
+
+}
+
+nav a::before {
+	content: '';
+	display: block;
+	height: 5px;
+	width: 100%;
+	
+}
+
+
+/*nav and logo*/
+.headercontainer {
+	width: 100%;
+	margin: 0 auto;
+	display: inline-block;
+	background: #ffffff;
+	border-bottom: 4px solid #777777;
+	padding: none;
+
+
+}
+
+header::after {
+	content: '';
+	display: table;
+	clear: both;
+}
+
+
+/*logo*/
+.boxlogo {
+	content: url(images/namelogo.jpg);
+	height: 70px;
+	width: 220px;
+	float: left;
+	margin: 0;
+	padding-left: 200px;
+
+
+
+
+	
+}
+
+/*selfie*/
+.image2 {
+	height: 300px;
+	width: 300px;
+	float: left;
+	padding-top: 30px;
+	padding-left: 0px; 
+	padding-right: 30px;
+	padding-bottom: 10px;
+}
+
+main-bio {
+	width: 70%;
+	margin: 0;
+	float: right;
+	font-size: 17px;
+
+	
+}
+
+
+/*get to know me, selfie, and bio*/
+.containermain {
+	
+	margin: 0 auto;
+	width: 960px;
+	background-color: #ffffff;
+	padding: 20px;
+	margin-bottom: 50px;
+	margin-top: 50px;
+
+	
+
+	
+
+
+}
+
+
+
+#footerteal {
+	background-color: #4aaaa5;
+	height: 20px;
+	
+	bottom: 50px;
+	width: 100%;
+
+}
+
+#footer {
+	background-color: #666666;
+	height: 50px;
+	bottom: 0;
+	width: 100%;
+	
+}
+
+
+	
+// Small devices (landscape phones, 576px and up)
+@media (min-width: 576px) {}
+
+// Medium devices (tablets, 768px and up)
+@media (min-width: 768px) { ... }
+
+// Large devices (desktops, 992px and up)
+@media (min-width: 992px) { ... }
