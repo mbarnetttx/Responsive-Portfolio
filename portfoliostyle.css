@@ -125,7 +125,7 @@ header::after {
 	
 	margin: 0 auto;
 	width: 960px;
-	height: 1100px;
+	height: 600px;
 	background-color: #ffffff;
 	padding: 50px;
 	margin-bottom: 50px;
@@ -153,7 +153,7 @@ header::after {
 }
 
 .box3 {
-	content: url(images/dtflogo.jpg);
+	content: url(images/dtffinal.png);
 	height: 250px;
 	width: 320px;
 	float: left;
@@ -203,9 +203,10 @@ header::after {
 			
 		margin: 0 auto;
 		width: 400px;
+		height: 1150px;
 		background-color: #ffffff;
 		padding: 5px;
-		margin-bottom: 5px;
+		margin-bottom: 100px;
 		margin-top: 5px;	
 		padding-left: 20px;
 			
@@ -225,7 +226,8 @@ header::after {
 	
 	
 .box1 {
-	margin-right: 200px;
+	padding-left: 35px;
+	padding-right: 0;
 	
 }
 
