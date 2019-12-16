@@ -11,7 +11,7 @@ body {
 }
 
 
-/*get to know me text*/
+/*portfolio text*/
 h1 {
 	color: #4aaaa5;
 	text-align: left;
@@ -125,7 +125,7 @@ header::after {
 	
 	margin: 0 auto;
 	width: 960px;
-	height: 600px;
+	height: 1100px;
 	background-color: #ffffff;
 	padding: 50px;
 	margin-bottom: 50px;
@@ -136,47 +136,39 @@ header::after {
 .box1 {
 	content: url(images/discologo.jpg);
 	height: 200px;
-	width: 300px;
+	width: 320px;
 	float: left;
-	
-	background-color: #666666;
 	margin-right: 0px;
-	margin-bottom: 50px;
-	margin-left: 120px;
+	padding-bottom: 50px;
+	padding-left: 120px;
 }
 
 .box2 {
 	content: url(images/512logo.jpg);
 	height: 200px;
 	width: 320px;
-	float: right;
-;
-	background-color: #666666;
-	margin-right: 120px;
-	margin-bottom: 50px;
+	float: right;	
+	padding-right: 120px;
+	padding-bottom: 50px;
 }
 
 .box3 {
 	content: url(images/dtflogo.jpg);
-	height: 220px;
+	height: 250px;
 	width: 320px;
 	float: left;
-
-	background-color: #666666;
-	margin-right: 0px;
-	margin-left: 120px;
+	padding-right: 0px;
+	padding-left: 120px;
 }
+
 
 .box4 {
 	content: url(images/linkedlogo.jpg);
-	height: 200px;
+	height: 225px;
 	width: 320px;
 	float: right;
-
-	background-color: #666666;
-	margin-right: 120px;
-	
-	margin-left: 0px;
+	padding-right: 120px;
+	padding-left: 0px;
 }
 
 
@@ -202,3 +194,66 @@ header::after {
 	
 }
 
+/* // Small devices (landscape phones, 576px and up) */
+@media (max-width: 640px) {
+ 
+
+
+	.containermain {
+			
+		margin: 0 auto;
+		width: 400px;
+		background-color: #ffffff;
+		padding: 5px;
+		margin-bottom: 5px;
+		margin-top: 5px;	
+		padding-left: 20px;
+			
+	}
+	
+	
+	
+	
+	
+	
+	/*portfolio text*/
+	h1 {
+		text-align: center;
+	
+		
+	}
+	
+	
+.box1 {
+	margin-right: 200px;
+	
+}
+
+.box2 {
+	
+	
+}
+
+.box3 {
+	
+
+}
+
+.box4 {
+	
+
+}
+
+
+
+	}
+	 
+	
+	
+	/* // Medium devices (tablets, 768px and up) */
+	@media (max-width : 768px) { 	}
+	
+	
+	/* // Large devices (desktops, 992px and up) */
+	@media (max-width : 980px) {}
+	
