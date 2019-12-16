@@ -1,5 +1,5 @@
 body {
-	background-image: url(assets/images/herringbone.png);
+	background-image: url(images/herringbone.png);
 	margin: 0;
 	padding: 0;
 	font-family: arial; .
@@ -108,7 +108,7 @@ header::after {
 
 /*logo*/
 .boxlogo {
-	content: url(assets/images/namelogo.jpg);
+	content: url(images/namelogo.jpg);
 	height: 70px;
 	width: 220px;
 	float: left;
