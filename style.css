@@ -19,13 +19,16 @@ body {
 	border-bottom: 4px solid #777777;
 	padding: none;
 	
+	
 }
 
 
 nav {
 	float: right;
+	margin-right: 300px;
 	/* padding-right: 300px; */
-	padding-top: 25px;
+	
+	
 
 
 	
@@ -45,6 +48,9 @@ nav li {
 	/* margin-left: 98px; */
 	padding-top: 5px;
 	 letter-spacing: 1.5px; 
+	 list-style: none;
+	 margin-left: 20px;
+	 
 	 
 
 
@@ -158,7 +164,7 @@ h1 {
 	height: 20px;
 	
 	bottom: 50px;
-	width: 100%;
+	width: 1000px;
 
 }
 
@@ -166,7 +172,7 @@ h1 {
 	background-color: #666666;
 	height: 50px;
 	bottom: 0;
-	width: 100%;
+	width: 1000px;
 	
 }
 
@@ -174,23 +180,9 @@ h1 {
 	
 /* // Small devices (landscape phones, 576px and up) */
 @media (max-width: 640px) {
- 
-nav li {
-	width: 50%;
-	padding-left: 120px;
-	margin-left: 0;
-	padding-right: 120px;
-	
-	
-	
 
-}
-
-nav {
-	width: 100%;
-	margin: 15px 0;
-	
-	
+.headercontainer {
+	width: 600px;
 }
 
 .containermain {
@@ -199,9 +191,9 @@ nav {
 	width: 400px;
 	background-color: #ffffff;
 	padding: 5px;
-	margin-bottom: 5px;
+	margin-bottom: 50px;
 	margin-top: 5px;	
-	padding-left: 20px;
+	margin-left: 40px;
 		
 }
 
@@ -231,16 +223,30 @@ h1 {
 	
 }
 
-nav ul {
-	display: inline-block;
-	right: 0;
+
+/*logo*/
+.boxlogo {
+	content: url(images/namelogo.jpg);
+	height: 70px;
+	width: 220px;
+	float: left;
+	margin-left: -50px;
+
+
 }
+
 }
  
 
 
 /* // Medium devices (tablets, 768px and up) */
-@media (max-width : 768px) { 	}
+@media (max-width : 768px) { 
+
+
+
+
+
+	}
 
 
 /* // Large devices (desktops, 992px and up) */
