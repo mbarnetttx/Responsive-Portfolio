@@ -232,17 +232,20 @@ header::after {
 }
 
 .box2 {
-	
+	padding-left: 0px;
+	padding-right: 40px;
 	
 }
 
 .box3 {
-	
+	padding-left: 40px;
+	padding-right: 0;
 
 }
 
 .box4 {
-	
+	padding-left: 0px;
+	padding-right: 45px;
 
 }
 

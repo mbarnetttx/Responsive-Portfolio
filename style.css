@@ -158,14 +158,13 @@ h1 {
 
 
 
-
 #footerteal {
 	background-color: #4aaaa5;
 	height: 20px;
 	
 	bottom: 50px;
 	width: 1000px;
-
+	
 }
 
 #footer {
@@ -235,14 +234,15 @@ h1 {
 
 }
 
+nav {
+	margin-right: none;
+
 }
- 
+}
 
 
 /* // Medium devices (tablets, 768px and up) */
-@media (max-width : 768px) { 
-
-
+@media  (max-width : 768px) { 
 
 
 
