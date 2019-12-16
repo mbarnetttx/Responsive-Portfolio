@@ -24,30 +24,34 @@ body {
 
 nav {
 	float: right;
-	padding-right: 300px;
+	/* padding-right: 300px; */
 	padding-top: 25px;
+
 
 	
 }
 
 
-nav ul {
+/* nav ul {
 	margin: 0;
 	padding: 0;
 	list-style: none;
 	display: inline-block;
 
-}
-
+} */
+ 
 nav li {
 	float: left;
-	margin-left: 70px;
+	/* margin-left: 98px; */
 	padding-top: 5px;
-	letter-spacing: 1.5px;
+	 letter-spacing: 1.5px; 
+	 
 
 
 
-}
+
+} 
+
 
 nav a {
 	color: #777777;
@@ -171,7 +175,23 @@ h1 {
 /* // Small devices (landscape phones, 576px and up) */
 @media (max-width: 640px) {
  
+nav li {
+	width: 50%;
+	padding-left: 120px;
+	margin-left: 0;
+	padding-right: 120px;
+	
+	
+	
 
+}
+
+nav {
+	width: 100%;
+	margin: 15px 0;
+	
+	
+}
 
 .containermain {
 		
